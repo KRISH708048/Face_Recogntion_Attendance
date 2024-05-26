@@ -71,3 +71,4 @@ for img in pathList:
     blob = bucket.blob(fileName)
     blob.upload_from_filename(fileName)
 
+print("Data Added Successfully")
